@@ -1,0 +1,136 @@
+.main {
+    color: #ffffff;
+    max-width: 550px;
+    background-color: transparent;
+}
+
+li {
+    list-style: none;
+}
+
+.top-header {
+    border-radius: 15px 15px 0 0;
+    background-color: #5e5e5e;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+section.to-do-heading {
+    padding: 22px 15px;
+    color: #ffffff;
+    background-color: #808080 !important;
+    border-radius: 0 0 15px 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+
+form {
+    margin: auto;
+}
+
+.todo {
+    color: #5e5e5e;
+    background-color: #ffffff;
+    max-width: 100% !important;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.todo li {
+    flex-wrap: nowrap;
+    max-width: 80% !important;
+}
+
+.todo h4 {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    margin: auto;
+    padding: 8px;
+    border: none;
+    width: 95%;
+    color: #5e5e5e;
+    border-radius: 10px;
+    box-shadow: inset rgba(97, 97, 97, 0.12) 0px 1px 3px, inset rgba(76, 76, 76, 0.24) 0px 1px 2px;
+}
+
+form input:focus {
+    outline: 0 none;
+}
+
+.todo:nth-child(even) {
+    background-color: #cecece;
+}
+
+button {
+    color: #5e5e5e;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.alert {
+    color: #df4759;
+    margin: 0;
+    padding: 8px;
+    padding-bottom: 0;
+}
+
+.add-btn {
+    margin-left: 10px !important;
+    padding: 8px 10px;
+    border: none;
+    color: #ffffff;
+    border-radius: 8px;
+    background-color: #00d8d8;
+}
+
+.del-all-btn {
+    margin-left: 10px !important;
+    background-color: #f1f1f1;
+}
+
+.edit-btn {
+    margin: 0 5px;
+}
+
+.edit-input {
+    background-color: transparent;
+}
+
+.edit-input:focus {
+    outline: none;
+}
+
+.del-btn {
+    margin: 0 5px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 570px) {
+    .main {
+        margin: 30px 0;
+        max-width: 90%;
+    }
+
+    .todo li {
+        max-width: 60% !important;
+    }
+}
